@@ -1,26 +1,26 @@
-# claude-lenses
+# Two Cents
 
-Response modifier skills ("lenses") for Claude Code. Each lens overlays every answer with an extra perspective.
+Unsolicited opinions for Claude Code. Pick one and every answer gets an extra take nobody asked for — a roast, a haiku, a paranoid security review, or your very own mass-rename therapist.
 
-## Available lenses
+## Available two cents
 
-| Lens | What it does |
-|------|-------------|
-| Roast | Appends a sharp roast about your question |
-| Psychoanalyze | Appends a psychological micro-analysis of what your question reveals |
-| Devil's Advocate | Challenges your approach with what could go wrong |
-| ELI5 | Re-explains the answer as if you're five years old |
-| Haiku | Appends a haiku summarizing the answer |
-| Paranoid | Appends security and risk concerns about what you're doing |
-| Mentor | Adds a teaching moment about the underlying principle or pattern |
-| Time Traveler | Adds how this would have been done 10 years ago vs. 10 years from now |
-| Rubber Duck | Reflects the question back to reveal what you were really trying to figure out |
+| Two Cents | Good for |
+|-----------|----------|
+| **Roast** | Sharp roast after every answer. Humility training, pair programming with a bully |
+| **Psychoanalyze** | Micro-analyzes what your question reveals. Finding out why you mass-renamed all those variables at 2am |
+| **Devil's Advocate** | Challenges your approach with what could go wrong. Talking yourself out of "it'll be fine in production" |
+| **ELI5** | Re-explains answers like you're five. When the docs read like a PhD thesis |
+| **Haiku** | Distills every answer into a 5-7-5 haiku. Pretending you're a cultured developer |
+| **Paranoid** | Flags security risks and failure modes. Scaring yourself into writing proper validation |
+| **Mentor** | Surfaces the underlying principle or pattern. Actually learning instead of just copy-pasting the answer |
+| **Time Traveler** | Compares how this was done 10 years ago vs. 10 years from now. Feeling grateful you don't write jQuery anymore |
+| **Rubber Duck** | Reflects your question back at you. Realizing you asked the wrong question — again |
 
 ## Install
 
 ```
-/plugin marketplace add iltempo/claude-lenses
-/plugin install claude-lenses@claude-lenses
+/plugin marketplace add iltempo/two-cents
+/plugin install two-cents@claude-lenses
 ```
 
 Or test locally:
@@ -32,10 +32,10 @@ claude --plugin-dir ./path/to/claude-lenses
 ## Usage
 
 ```
-/lenses
+/two-cents
 ```
 
-You'll be asked which lens to activate. Once chosen, it stays active for the rest of the conversation.
+You'll be asked which two cents to activate. Once chosen, it stays active for the rest of the conversation.
 
 ## License
 

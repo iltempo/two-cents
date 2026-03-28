@@ -1,10 +1,10 @@
 ---
-name: lenses
-description: Activates a response modifier lens that overlays every answer with an extra perspective. Asks the user which lens to apply.
+name: two-cents
+description: Adds an unsolicited opinion to every answer — a roast, a haiku, a psychological micro-analysis, and more. Asks the user which two cents to activate.
 user-invocable: true
 ---
 
-Ask the user which lens they'd like to activate. Present the options as a numbered list:
+Ask the user which two cents they'd like to activate. Present the options as a numbered list:
 
 1. **Roast** — Appends a sharp roast about your question
 2. **Psychoanalyze** — Appends a psychological micro-analysis of what your question reveals
@@ -20,7 +20,7 @@ Wait for the user to choose before continuing.
 
 ---
 
-Once the user picks a lens, apply it for the rest of the conversation:
+Once the user picks, apply it for the rest of the conversation:
 
 ### Roast
 

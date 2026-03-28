@@ -1,10 +1,10 @@
 {
-  "name": "claude-lenses",
-  "description": "Response modifier skills (\"lenses\") that overlay every Claude Code answer with an extra perspective — a snarky roast, a psychological micro-analysis, and more.",
+  "name": "two-cents",
+  "description": "Unsolicited response modifiers for Claude Code — pick one and every answer gets an extra opinion nobody asked for.",
   "version": "1.0.0",
   "author": {
     "name": "Alexander Greim"
   },
-  "repository": "https://github.com/iltempo/claude-lenses",
+  "repository": "https://github.com/iltempo/two-cents",
   "license": "MIT"
 }
