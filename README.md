@@ -19,8 +19,8 @@ Unsolicited opinions for Claude Code. Pick one and every answer gets an extra ta
 ## Install
 
 ```
-/plugin marketplace add iltempo/two-cents
-/plugin install two-cents@iltempo-two-cents
+/plugin marketplace add iltempo/claude-plugins
+/plugin install two-cents@iltempo-claude-plugins
 ```
 
 ## Usage
