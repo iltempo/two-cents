@@ -20,13 +20,13 @@ Unsolicited opinions for Claude Code. Pick one and every answer gets an extra ta
 
 ```
 /plugin marketplace add iltempo/two-cents
-/plugin install two-cents@claude-lenses
+/plugin install two-cents
 ```
 
 Or test locally:
 
 ```
-claude --plugin-dir ./path/to/claude-lenses
+claude --plugin-dir ./path/to/two-cents
 ```
 
 ## Usage
