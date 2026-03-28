@@ -19,7 +19,7 @@ Response modifier skills ("lenses") for Claude Code. Each lens overlays every an
 ## Install
 
 ```
-/plugin marketplace add alexandergreim/claude-lenses
+/plugin marketplace add iltempo/claude-lenses
 /plugin install claude-lenses@claude-lenses
 ```
 
