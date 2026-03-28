@@ -7,7 +7,10 @@
     {
       "name": "two-cents",
       "description": "Unsolicited response modifiers for Claude Code — pick one and every answer gets an extra opinion nobody asked for.",
-      "source": "."
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iltempo/two-cents.git"
+      }
     }
   ]
 }
