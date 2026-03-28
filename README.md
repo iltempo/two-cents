@@ -2,6 +2,8 @@
 
 Unsolicited opinions for Claude Code. Pick one and every answer gets an extra take nobody asked for — a roast, a haiku, a paranoid security review, or your very own mass-rename therapist.
 
+![Two Cents — Psychoanalyze mode in action](screenshot.png)
+
 ## Available two cents
 
 | Two Cents | Good for |
