@@ -28,10 +28,21 @@ Unsolicited opinions for Claude Code. Pick one and every answer gets an extra ta
 ## Usage
 
 ```
-/two-cents
+/two-cents [mode]
 ```
 
-You'll be asked which two cents to activate. Once chosen, it stays active for the rest of the conversation.
+Pass a mode directly to skip the menu:
+
+```
+/two-cents roast
+/two-cents mentor
+```
+
+Or run `/two-cents` without arguments to pick from the full list.
+
+Available modes: `roast`, `psychoanalyze`, `devil`, `eli5`, `haiku`, `paranoid`, `mentor`, `time-traveler`, `rubber-duck`.
+
+Once chosen, the mode stays active for the rest of the conversation.
 
 ## License
 

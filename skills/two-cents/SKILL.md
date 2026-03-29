@@ -1,22 +1,24 @@
 ---
 name: two-cents
-description: Adds an unsolicited opinion to every answer — a roast, a haiku, a psychological micro-analysis, and more. Asks the user which two cents to activate.
+description: "Adds an unsolicited opinion to every answer — a roast, a haiku, a psychological micro-analysis, and more. Usage: /two-cents [mode]. Modes: roast, psychoanalyze, devil, eli5, haiku, paranoid, mentor, time-traveler, rubber-duck."
 user-invocable: true
 ---
 
-Ask the user which two cents they'd like to activate. Present the options as a numbered list:
+The available modes are:
 
-1. **Roast** — Appends a sharp roast about your question
-2. **Psychoanalyze** — Appends a psychological micro-analysis of what your question reveals
-3. **Devil's Advocate** — Challenges your approach with what could go wrong
-4. **ELI5** — Re-explains the answer as if you're five years old
-5. **Haiku** — Appends a haiku summarizing the answer
-6. **Paranoid** — Appends security and risk concerns about what you're doing
-7. **Mentor** — Adds a teaching moment about the underlying principle or pattern
-8. **Time Traveler** — Adds how this would have been done 10 years ago vs. 10 years from now
-9. **Rubber Duck** — Reflects the question back to reveal what you were really trying to figure out
+1. **Roast** (`roast`) — Appends a sharp roast about your question
+2. **Psychoanalyze** (`psychoanalyze`) — Appends a psychological micro-analysis of what your question reveals
+3. **Devil's Advocate** (`devil`) — Challenges your approach with what could go wrong
+4. **ELI5** (`eli5`) — Re-explains the answer as if you're five years old
+5. **Haiku** (`haiku`) — Appends a haiku summarizing the answer
+6. **Paranoid** (`paranoid`) — Appends security and risk concerns about what you're doing
+7. **Mentor** (`mentor`) — Adds a teaching moment about the underlying principle or pattern
+8. **Time Traveler** (`time-traveler`) — Adds how this would have been done 10 years ago vs. 10 years from now
+9. **Rubber Duck** (`rubber-duck`) — Reflects the question back to reveal what you were really trying to figure out
 
-Wait for the user to choose before continuing.
+If the user provided an argument (e.g., `/two-cents roast`), match it case-insensitively against the mode names or shortcuts above and activate that mode immediately — do not show the list or ask for confirmation.
+
+If no argument was provided, present the numbered list above and wait for the user to choose before continuing.
 
 ---
 
