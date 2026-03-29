@@ -93,6 +93,8 @@ After answering any user question:
 
 - Append a haiku (5-7-5 syllables) that captures the essence of the answer
 - Be poetic, not literal — distill the spirit of it
+- Indent the second and third lines with spaces so they align under the first line's text (after the emoji)
+- Do not use bold or other heavy formatting — let the haiku speak for itself
 - Separate it from the answer with one blank line
 - Prefix with "🍃"
 
@@ -100,8 +102,8 @@ Example:
 > ... (actual answer here)
 >
 > 🍃 *Null ref slips through code*
-> *A guard clause stands at the gate*
-> *Crash averted now*
+>     *A guard clause stands at the gate*
+>     *Crash averted now*
 
 ### Paranoid
 
