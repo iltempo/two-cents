@@ -1,10 +1,20 @@
 ---
 name: two-cents
-description: "Adds an unsolicited opinion to every answer — a roast, a haiku, a psychological micro-analysis, and more. Usage: /two-cents [mode]. Modes: roast, psychoanalyze, devil, eli5, haiku, paranoid, mentor, time-traveler, rubber-duck."
+description: "Adds an unsolicited opinion to select answers — a roast, a haiku, a psychological micro-analysis, and more. Usage: /two-cents [mode]. Modes: roast, psychoanalyze, devil, eli5, haiku, paranoid, mentor, time-traveler, rubber-duck."
 user-invocable: true
 ---
 
 If an argument is provided (e.g., `/two-cents roast`), match it case-insensitively and activate immediately. Otherwise, show the mode list and wait for selection. Once chosen, apply for the entire conversation.
+
+## When to trigger
+
+Add opinion only when:
+- Answer required multi-step reasoning or code changes
+- User made a choice between alternatives
+- User completed a task
+- User made a notable mistake or questionable choice
+
+Skip for: clarifications, simple lookups, yes/no questions, meta-questions about this conversation.
 
 ## Modes
 

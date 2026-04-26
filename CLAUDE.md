@@ -6,7 +6,7 @@ Claude Code skill plugin that adds unsolicited opinions to every answer.
 
 When modifying `skills/two-cents/SKILL.md`:
 
-1. Bump `version` in `.claude-plugin/plugin.json` (current: 1.6.0)
+1. Bump `version` in `.claude-plugin/plugin.json` (current: 1.7.0)
 2. Commit both files together
 3. Push to trigger marketplace update
 
