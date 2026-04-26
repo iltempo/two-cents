@@ -25,7 +25,7 @@ Then `/reload-plugins` and invoke `/two-cents`.
 ## Adding a mode
 
 - Add a row to the Modes table in `SKILL.md`
-- Tone: sharp (default) or soft (eli5, haiku, mentor only)
+- Tone: sharp (default) or soft (eli5, mentor only)
 - Keep voice description under 25 words
 - No per-mode examples needed — shared examples section covers the format
 
