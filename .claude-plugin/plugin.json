@@ -1,7 +1,7 @@
 {
   "name": "two-cents",
   "description": "Unsolicited response modifiers for Claude Code — pick one and every answer gets an extra opinion nobody asked for.",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "author": {
     "name": "Alexander Greim"
   },
